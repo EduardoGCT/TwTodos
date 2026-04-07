@@ -9,7 +9,7 @@
     <h1 class="mb-3">Lista de Tarefas</h1>
 
     {# Search & filter bar #}
-    <form method="get" class="row g-2 mb-3">
+    <form method="get" class="row g-2 mb-4">
         <div class="col-auto">
             <input type="text" name="q" class="form-control" placeholder="Buscar por título..." value="{{ search_query }}">
         </div>
@@ -29,7 +29,7 @@
     {% if todo_list %}
         <div class="table-responsive">
             <table class="table table-hover align-middle">
-                <thead class="table-dark">
+                <thead class="tw-thead">
                     <tr>
                         <th scope="col">#</th>
                         <th scope="col">Título</th>
@@ -44,7 +44,7 @@
                     {% now "Y-m-d" as today_str %}
                     {% for todo in todo_list %}
                         {% if not todo.finished_at and todo.deadline|date:"Y-m-d" < today_str %}
-                            <tr class="table-danger">
+                            <tr class="tw-overdue">
                         {% else %}
                             <tr>
                         {% endif %}
