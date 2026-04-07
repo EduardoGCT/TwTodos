@@ -1,0 +1,6 @@
+Django==6.0.4
+django-crispy-forms==2.6
+crispy-bootstrap5==2026.3
+python-decouple==3.8
+dj-database-url==3.1.2
+black==26.3.1
