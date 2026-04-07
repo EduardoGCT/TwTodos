@@ -68,7 +68,9 @@
         --btn-outline-hover-text: #ffffff;
       }
 
-      *, *::before, *::after {
+      body, .tw-card, .table, .table td, .table th, .table thead th,
+      .btn, .form-control, .form-select, .navbar, .tw-navbar,
+      .alert, .pagination .page-link, .badge {
         transition: background-color var(--transition), border-color var(--transition), color var(--transition), box-shadow var(--transition);
       }
 
@@ -158,6 +160,7 @@
       }
 
       .alert-success {
+        background-color: #d1fae5;
         background-color: color-mix(in srgb, #059669 15%, var(--bg-secondary));
         color: #059669;
         border-left: 4px solid #059669;
