@@ -3,7 +3,7 @@ Primeiro projeto fullstack realizado em Django.
 
     Título Projeto: ToDo (aplicação de lista de tarefas) — Django
 
-Descrição Aplicação simples de gerenciamento de tarefas desenvolvida com Django. 
+Aplicação simples de gerenciamento de tarefas desenvolvida com Django. 
 Permite criar, listar, editar, excluir e marcar tarefas como concluídas.
 Foi usada como projeto didático para demonstrar conceitos do Django (models, migrations, Class Based Views, templates, forms, csrf, etc.).
 
